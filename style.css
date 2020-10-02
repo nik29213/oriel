@@ -1,0 +1,149 @@
+.bg-blu-lt{
+	background-color:#008891;
+}
+.disp-none{
+	display:none;
+}
+.bg-blu-dk{
+	background-color:#006666;
+}
+.bg-blk{
+	background-color:#1a1a1a;
+}
+.txt-wh{
+	color:white;
+}
+.txt-red{
+	color:red;
+}
+.z1{
+	z-index:1;
+}
+.z2{
+	z-index:2;
+}
+.bd-rd-10{
+	border-radius:10px;
+}
+.bd-rd-30{
+	border-radius:30px;
+}
+
+.bd-wh{
+	border:solid 1px white;
+}
+.bd-blk{
+	border:solid 1px black;
+}
+.bg-tr{
+	background-color:transparent;
+	border:solid 0px white;
+}
+.mg-tp-15{
+	margin-top:15px;	
+}
+.txt-left{
+	text-align:left;
+}
+.foot{
+	position:relative;
+	bottom:0px;
+	width:100%;
+}
+.fb {
+     padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.sharefix {
+     padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    
+	position:fixed;
+	top:200px;
+}
+
+/* Add a hover effect if you want */
+.fb:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fb {
+    background: #3B5998;
+    color: white;
+}
+.mx-600{
+	max-height:600px;
+	overflow:auto;
+}
+.pd-lt-20{
+	padding-left:20px !important;
+}
+.pd-rt-20{
+	padding-right:20px !important;
+}
+.pd-lt-40{
+	padding-left:40px !important;
+}
+.pd-rt-40{
+	padding-right:40px !important;
+}
+
+.pd-tp-0{
+	padding-top:0px;
+}
+.mg-0{
+	margin:0px;
+}
+.bg-wh{
+	background:white !important;
+}
+.txt-blu-dk{
+	color:#006666;
+}
+.txt-blu-lt{
+	color:#008891;
+}
+.txt-blk{
+	color:black;
+}
+.bx{
+	box-shadow:5px 10px 10px black;
+}
+.ul-type {
+    list-style-image: url("");
+}
+.bd-rt{
+border-right:solid 1px #008891;	
+}
+.bd-lt{
+	border-left:solid 1px #008891;
+}
+.bd{
+	border:solid 1px #008891 !important;	
+
+}
+.bd-0{
+	border:none;
+	border-radius:0px;
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #008891;
+    color: white;
+}
+.pd-0{
+	padding:0px;
+}
+.pd-2{
+	padding:2px;
+}

@@ -1,0 +1,8 @@
+<?php
+	$dbh = "localhost";
+	$dbu = "root";
+	$dbp = "";
+	$con = @mysqli_connect( $dbh, $dbu, $dbp ) or die("Unable to connect");
+	@mysqli_select_db( $con, "orieldb" );
+	@mysqli_query( $con, "set global sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';" );
+?>
